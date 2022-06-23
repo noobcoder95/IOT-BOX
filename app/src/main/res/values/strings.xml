@@ -1,0 +1,188 @@
+<resources>
+
+    <string name="title_app_long_name">IoT Box Controller 2.08 \n(Stable-Release)</string>
+    <string name="build_date_about">Built on August 22 2020 at 01:15:20. \nCopyright 2020 © Smart IoT Devices. \n<i>All rights reserved.</i>  \nDeveloped by Verdi.</string>
+    <string name="title_eula">End User License Agreement</string>
+
+    <string name="title_status">Connection Status: -</string>
+    <string name="title_progress">Please wait…</string>
+    <string name="button_connect">Connect</string>
+    <string name="button_onconnect">Click to Disconnect</string>
+    <string name="button_ondisconnect">Click to Connect</string>
+    <string name="app_name">IoT Box</string>
+    <string name="title_device">Devices</string>
+    <string name="title_remote">Controller</string>
+    <string name="setting">Settings</string>
+    <string name="hint_mouspad_plugin">Mousepad and Keyboard remote</string>
+
+    <string name="hint_device_name">Device Name</string>
+    <string name="hint_device">Device Address</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_port">Port</string>
+    <string name="button_save">Save</string>
+    <string name="button_add">Add</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="hint_login_password">Input Password</string>
+    <string name="button_ok">OK</string>
+    <string name="button_accept">Accept</string>
+    <string name="button_decline">Decline</string>
+    <string name="title_alert">Alert!</string>
+    <string name="message_fill_device_name">Please enter the device name!</string>
+    <string name="message_fill_device_address">Please enter device address!</string>
+    <string name="message_fill_username">Please enter Username</string>
+    <string name="message_fill_port">Please enter Port number (default is 22)</string>
+    <string name="message_disconnect_confirmation">Are you sure you would like to disconnect?</string>
+    <string name="message_delete_device">Are you sure you would like to delete this device?</string>
+    <string name="title_established">Connection Established!</string>
+    <string name="title_warning">Warning!</string>
+    <string name="button_no">NO</string>
+    <string name="title_onconnected">"Status: Connected to "</string>
+    <string name="button_disconnect">Disconnect</string>
+    <string name="button_yes">YES</string>
+    <string name="message_disconnected">Disconnected</string>
+    <string name="title_error">Error!</string>
+    <string name="message_exit">Are you sure you want to exit?</string>
+    <string name="title_exit">Exit</string>
+    <string name="message_hostkey_reject">You have rejected the server\'s fingerprint</string>
+    <string name="message_hostkey_unknown">Unknown HostKey</string>
+    <string name="message_hostkey_changed">Hostkey has been changed</string>
+    <string name="message_auth_fail">Authentication failed, check username/password</string>
+    <string name="message_auth_cancel">Authentication has been cancelled</string>
+    <string name="message_unknown_connection">Unable to establish connection, please check the device\'s address and your connection.</string>
+    <string name="message_auth_incorrect">Too many incorrect authentications with this user</string>
+    <string name="message_refused_connection">Connection refused</string>
+    <string name="message_retry_bad_connection">Unable to establish connection, retry?</string>
+    <string name="message_bad_connection">Unable to establish connection.</string>
+    <string name="title_device_list">Device List</string>
+    <string name="title_cmd_list">Command List</string>
+    <string name="hint_administrator">Administrator</string>
+    <string name="title_securitycam_live">Security Camera</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="message_securitycam_fail">Failed to display the security camera live broadcast, please check the connection!</string>
+    <string name="title_hotspot_management">Hotspot Management</string>
+    <string name="title_ava">AVA Talk</string>
+    <string name="message_web_fail">Failed to load data, please check the connection!</string>
+    <string name="message_loading">Loading, please wait…</string>
+    <string name="title_download">Download</string>
+    <string name="message_confirm_save">"Do you want to save "</string>
+    <string name="description_credits"><![CDATA[Special credits & thanks to: \n-> Zakaria \n-> Gunawan \n-> Suhermanto]]></string>
+    <string name="title_device_setup">Device Setup:</string>
+
+    <string name="message_plugin">Failed to start plugin, please check the connection!</string>
+    <string name="button_dismiss">Dismiss</string>
+    <string name="button_show_eula">EULA</string>
+
+    <string name="pref_title_sensitivity">Mouse sensitivity</string>
+    <string name="pref_description_keyboard_autoclear">Clear keyboard input on send</string>
+    <string name="pref_title_keyboard_autoclear">Auto clear keystrokes</string>
+    <string name="lock_layout">Lock Keyboard Layout</string>
+    <string name="invert_scroll">Invert Scroll</string>
+    <string name="pref_restore_default_layout">Restore Default Keyboard Layout</string>
+    <string name="pref_mousepad_im_style">Instant Messenger Style</string>
+    <string name="pref_description_lock_keyboard">Disable to drag and drop keys</string>
+    <string name="pref_description_im_style">Disable to send keys as they are pressed</string>
+    <string name="tooltip_mousepad">Move your finger on the screen to move the mouse cursor</string>
+    <string name="mousepad_restore_title">Restore default Keyboard?</string>
+    <string name="mousepad_restore_msg">Any modifications will be lost!</string>
+
+    <string name="cmd_mousepad_click" translatable="false">xdotool click</string>
+    <string name="cmd_mousepad_move" translatable="false">xdotool mousemove_relative</string>
+    <string name="cmd_mousepad_mouse_up" translatable="false">xdotool mouseup</string>
+    <string name="cmd_mousepad_mouse_down" translatable="false">xdotool mousedown</string>
+    <string name="cmd_mousepad_key" translatable="false">xdotool key</string>
+    <string name="cmd_mousepad_type" translatable="false">xdotool type</string>
+    <string name="cmd_system_status" translatable="false">"smartiot --status "</string>
+    <string name="cmd_mousepad_windowmin" translatable="false">xdotool windowminimize $(xdotool getactivewindow)</string>
+    <string name="cmd_mousepad_window_max" translatable="false">xdotool windowsize $(xdotool getactivewindow) 100% 100%</string>
+    <string name="message_settings_exit">Are you sure you want to exit settings?</string>
+    <string name="button_talkto_ava">Talk to AVA</string>
+    <string name="hint_ava">Write your message here!</string>
+    <string name="button_repeat_ava">Repeat</string>
+    <string name="button_stop_ava">Stop talking</string>
+    <string name="note_ava">Note: This feature is still under development and can only be use in english! \n \nUsage: \n- To get a response from AVA, write your message then press the \'Talk to AVA button\' (or you can also just press the button and send input with your voice via Google Voice Typing. You can also do the same with the \'Repeat\' button). \n- To make AVA repeat what yout have written, press the \'Repeat\' button. \n- To force AVA stop while it is still talking, press the \'Stop talking\' button.</string>
+    <string name="title_router_management">Router Management</string>
+
+    <string-array name="pref_sensitivity_list_titles">
+        <item>Normal, 1X</item>
+        <item>Increased, 1.5X</item>
+        <item>High, 2X</item>
+        <item>Super, 3X</item>
+    </string-array>
+
+    <string-array name="pref_sensitivity_list_values">
+        <item>1.0f</item>
+        <item>1.5f</item>
+        <item>2.0f</item>
+        <item>3.0f</item>
+    </string-array>
+    <string name="message_loading_live">Please reload the page if the video still does not appear!</string>
+    <string name="hint_help_about">Help/About</string>
+    <string name="title_desktop_live">Desktop Viewer</string>
+    <string name="message_desktop_fail">Failed to display desktop live broadcast, please check the connection!</string>
+    <string name="cmd_label_system_status" translatable="false">Check Status</string>
+    <string name="cmd_label_system_update" translatable="false">Run Update</string>
+    <string name="cmd_label_system_clean" translatable="false">Clean System</string>
+    <string name="button_show">Show</string>
+    <string name="cmd_start_desktop_live" translatable="false"><![CDATA[export DISPLAY=:0 && smartiot --live-desktop]]></string>
+    <string name="cmd_stop_desktop_live" translatable="false">killall -s QUIT ffmpegdesktop</string>
+    <string name="cmd_system_clean" translatable="false">"smartiot --clean "</string>
+    <string name="cmd_system_update" translatable="false">"smartiot --update "</string>
+    <string name="title_mousepad">Smart Mousepad</string>
+    <string name="cmd_clear_history" translatable="false">rm -rf /home/smarthome/.bash_history</string>
+    <string name="cmd_start_securitycam_live" translatable="false">smartiot --securitycam-daemon</string>
+    <string name="message_empty_pass">Password is empty!</string>
+    <string name="message_desktop_warning">This will make the security camera stop recording. Do you want to continue?</string>
+    <string name="hint_manual_cmd">Write your command here!</string>
+    <string name="title_result">Result:</string>
+    <string name="message_empty_cmd">Nothing to send!</string>
+    <string name="message_cmd_failed">Failed to send command, please connect first!</string>
+    <string name="message_system_clean">Cleaning the system will delete your security camera video recordings, make sure you have it backed up. Continue?</string>
+    <string name="title_channel_setup">Channel Setup:</string>
+    <string name="title_channel_a">Channel A</string>
+    <string name="title_channel_b">Channel B</string>
+    <string name="title_channel_c">Channel C</string>
+    <string name="title_channel_d">Channel D</string>
+    <string name="title_channel_e">Channel E</string>
+    <string name="title_channel_f">Channel F</string>
+    <string name="title_channel_g">Channel G</string>
+    <string name="title_channel_h">Channel H</string>
+    <string name="title_timer">Set Time:</string>
+    <string name="title_unit_days">Days:</string>
+    <string name="title_unit_hours">Hours:</string>
+    <string name="title_unit_minutes">Minutes:</string>
+    <string name="cmd_label_powerstrip_controller" translatable="false">Power Strip Controller</string>
+    <string name="cmd_relay" translatable="false">smartiot --relay-</string>
+    <string name="cmd_label_powerstrip_timer" translatable="false">Power Strip With Timer</string>
+    <string name="cmd_smartlight_on" translatable="false">"smartiot --smart-light-on "</string>
+    <string name="cmd_label_smartlight" translatable="false">Smart Light Mode</string>
+    <string name="cmd_relay_state" translatable="false">cat /etc/smartrelay_state.txt</string>
+    <string name="message_time_null">Time has not been set!</string>
+    <string name="message_option_null">Mark the channel you want to set!</string>
+    <string name="button_active">Activate</string>
+    <string name="button_deactive">Deactivate</string>
+    <string name="cmd_smartlight_off" translatable="false">"smartiot --smart-light-off "</string>
+    <string name="port_address_securitycam" translatable="false">:8008/securitycam-live.php</string>
+    <string name="port_address_desktop" translatable="false">:8008/desktop-live.php</string>
+    <string name="message_desktop_recorder">Desktop recorder is still running, do you want to stop it?</string>
+    <string name="cmd_ava_engine" translatable="false">"/usr/bin/python3 /usr/local/AVA/ava.py "</string>
+    <string name="cmd_kill_voice_engine" translatable="false">killall -9 mpg321</string>
+    <string name="message_doesnt_support_stt">Your device doesn\'t support Speech to Text!</string>
+    <string name="cmd_tts_engine" translatable="false">"/usr/bin/python3 /usr/local/AVA/tts.py "</string>
+    <string name="about">About</string>
+    <string name="button_send">Send</string>
+    <string name="message_empty_selection">Empty selection!</string>
+    <string name="message_blocked">Blocked!</string>
+    <string name="cmd_system_su" translatable="false">su</string>
+    <string name="cmd_system_halt" translatable="false">halt</string>
+    <string name="cmd_system_reboot" translatable="false">reboot</string>
+    <string name="cmd_system_sudo" translatable="false">sudo</string>
+    <string name="cmd_system_poweroff" translatable="false">poweroff</string>
+    <string name="title_notif">Notification</string>
+    <string name="cmd_restart_hotspot" translatable="false">"smartiot --restart-hotspot "</string>
+    <string name="cmd_label_restart_hotspot" translatable="false">Restart Smart Hotspot</string>
+    <string name="button_update">Update</string>
+
+</resources>

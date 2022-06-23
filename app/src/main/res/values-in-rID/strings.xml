@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IoT Box</string>
+    <string name="title_eula">Perjanjian Lisensi Penggunaan Program</string>
+    <string name="title_status">Status Koneksi: -</string>
+    <string name="title_progress">Mohon tunggu sebentar…</string>
+    <string name="button_connect">Sambungkan</string>
+    <string name="button_onconnect">Putuskan Sambungan</string>
+    <string name="button_ondisconnect">Sambungkan</string>
+    <string name="title_device">Perangkat</string>
+    <string name="title_remote">Kendali</string>
+    <string name="setting">Pengaturan</string>
+    <string name="hint_mouspad_plugin">Remot mousepad dan keyboard</string>
+    <string name="hint_device_name">Nama Perangkat</string>
+    <string name="hint_device">Alamat Perangkat</string>
+    <string name="hint_username">Nama Pengguna</string>
+    <string name="hint_password">Sandi</string>
+    <string name="hint_port">Port</string>
+    <string name="button_save">Simpan</string>
+    <string name="button_add">Tambah</string>
+    <string name="button_delete">Hapus</string>
+    <string name="button_cancel">Batal</string>
+    <string name="hint_login_password">Masukkan Sandi</string>
+    <string name="button_ok">OK</string>
+    <string name="description_eula">"<![CDATA[Perjanjian Lisensi Penggunaan Program (PLPP) ini merupakan perjanjian yang sah secara hukum antara Anda (sebagai pribadi ataupun badan hukum) dengan PT Smart IoT Devices sebagai pemegang hak cipta dari IoT Box Controller, yang meliputi aplikasi atau program atau peranti lunak (software), perangkat keras (hardware) dan media penunjangnya seperti kotak, buku panduan baik cetak maupun online, yang untuk selanjutnya disingkat sebagai “PERANGKAT SMARTHOME”. Dengan menginstal (memasang pada Smartphone/Perangkat Android), menduplikasi, atau apapun yang dimaksudkan untuk menggunakan PERANGKAT SMARTHOME, Anda bersedia untuk menyepakati dan mengikatkan diri dengan klausul-klausul yang terdapat dalam PLPP ini. Jika Anda tidak menyetujui atau menyepakati klausul-klausul yang terdapat dalam PLPP ini, batalkan pemesanan PERANGKAT SMARTHOME sebelum pembayaran Anda lakukan. \n \nLISENSI PERANGKAT SMARTHOME \nPERANGKAT SMARTHOME ini dilindungi oleh undang-undang. Kepemilikan dari PERANGKAT SMARTHOME ini tetap pada penciptanya dan Anda hanya mempunyai hak untuk penggunaan yang diizinkan. \n \n1. IZIN PENGGUNAAN \nPLPP ini memberikan hak kepada Anda berupa: \n \nPERANGKAT SMARTHOME \n- Anda diperbolehkan menginstal PERANGKAT SMARTHOME (memasang PERANGKAT SMARTHOME ke dalam Smartphone/Perangkat Android) pada beberapa Smartphone sesuai kebutuhan. \n- PERANGKAT SMARTHOME hanya dapat diinstal (dipasang ke dalam Smartphone/Perangkat Android) dibawah arahan Technical Support PT Smart IoT Devices. \n \nMedia Penyimpanan \nAnda diperbolehkan menyimpan copy (salinan) asli dari cakram padat PERANGKAT SMARTHOME ke dalam media penyimpanan lainnya hanya sebatas untuk membuat cadangan untuk mengantisipasi kemungkinan kerusakan pada cakram padat atau CD asli. \n \n2. DESKRIPSI TENTANG HAK CIPTA DAN BATASAN LAINNYA \nLarangan untuk Membongkar, Memodifikasi, dan Merekayasa \nAnda tidak diperbolehkan untuk membongkar, memodifikasi, atau merekayasa PERANGKAT SMARTHOME ini dengan maksud dan tujuan apapun, terkecuali kegiatan ini dilakukan untuk upaya memastikan ada atau tidak adanya malware, spyware, virus, dan semacamnya yang tertanam dalam produk kami, dengan ketentuan telah melalui persetujuan dari pihak kami. Jika terdapat kesalahan pada PERANGKAT SMARTHOME, silakan hubungi kami untuk mendapatkan build perbaikannya (jika tersedia) dan jangan sekali-kali melakukan perubahan atau perbaikan sendiri. \n \nBatasan Teknis Program \nPT Smart IoT Devices sebagai pengembang PERANGKAT SMARTHOME tidak bertindak secara eksklusif terhadap pengguna PERANGKAT SMARTHOME sehingga jika ada beberapa hal yang kurang tentang PERANGKAT SMARTHOME bersangkutan, pengguna tidak berhak menuntut atau memaksa PT Smart IoT Devices untuk membuatkan dan/atau membetulkan fitur yang dikehendaki, namun pengguna berhak mengajukan saran dan ide untuk PT Smart IoT Devices selaku pembuat dan pengembang PERANGKAT SMARTHOME kecuali ada perjanjian. \n \nPemisahan Komponen \nHak pakai dari PERANGKAT SMARTHOME dalam satu kesatuan yang utuh. Anda tidak diperbolehkan menggunakan sebagian komponen yang tersedia untuk keperluan lainnya. \n \nRental/Sewa. \nAnda tidak diperbolehkan menyewakan/merentalkan dan mengomersialkan PERANGKAT SMARTHOME ini. \n \nPengembalian \nAtas kondisi apapun Anda tidak berhak mengembalikan (melakukan return/ refund) PERANGKAT SMARTHOME yang telah Anda beli dan bayar. \n \nPemutusan Sepihak \nPengembang IoT Box Controller dalam hal ini PT Smart IoT Devices berhak untuk membatalkan PLPP ini secara sepihak dan sah secara hukum jika Anda terbukti melanggar klausul-klausul yang terdapat dalam PLPP ini. \n \n3. HAK CIPTA \nSeluruh perlengkapan yang terdapat dalam PERANGKAT SMARTHOME ini baik naskah, gambar, maupun lainnya adalah hak cipta dari PT Smart IoT Devices yang menjadi kesatuan dari PERANGKAT SMARTHOME. \n \n4. JAMINAN/GARANSI \nAnda dijamin akan mendapatkan produk yang baik. Jika terjadi kesalahan atau kerusakan yang diakibatkan oleh kesalahan dalam pembuatan, Anda akan memperoleh build perbaikan ataupun penggantian produk PERANGKAT SMARTHOME sesuai dengan ketentuan yang tertera pada kartu garansi. \n \n5. LAIN-LAIN \nPT Smart IoT Devices berhak mengubah PLPP ini tanpa harus ada pemberitahuan terlebih dahulu. Klausul-klausul lainnya yang disertakan secara tersendiri di dalam PERANGKAT SMARTHOME dapat melengkapi PLPP ini.]]>"</string>
+    <string name="button_accept">Terima</string>
+    <string name="button_decline">Tolak</string>
+    <string name="title_alert">Perhatian!</string>
+    <string name="message_fill_device_name">Mohon masukkan nama perangkat!</string>
+    <string name="message_fill_device_address">Mohon masukkan alamat perangkat!</string>
+    <string name="message_fill_username">Mohon masukkan nama pengguna</string>
+    <string name="message_fill_port">Mohon masukkan nomor port (standar 22)</string>
+    <string name="title_warning">Peringatan!</string>
+    <string name="button_no">Tidak</string>
+    <string name="title_onconnected">"Status: Tersambung ke "</string>
+    <string name="message_disconnect_confirmation">Apakah Anda yakin ingin memutuskan sambungan?</string>
+    <string name="button_disconnect">Putuskan</string>
+    <string name="button_yes">Ya</string>
+    <string name="message_disconnected">Terputus</string>
+    <string name="message_empty_selection">Pilihan kosong!</string>
+    <string name="title_established">Berhasil terhubung!</string>
+    <string name="title_error">Kesalahan!</string>
+    <string name="message_delete_device">Apakah anda yakin ingin menghapus perangkat ini?</string>
+    <string name="message_exit">Apakah Anda yakin ingin keluar?</string>
+    <string name="title_exit">Keluar</string>
+    <string name="title_app_long_name">IoT Box Controller 2.08 (Rilis-Stabil)</string>
+    <string name="build_date_about">Dibangun pada: \n22 Agustus 2020 – 01:15:20. \nHak Cipta 2020 © Smart IoT Devices. \n<i>Hak Cipta Dilindungi.</i> \nDikembangkan oleh Verdi.</string>
+    <string name="message_hostkey_reject">Anda telah menolak sidik jari server</string>
+    <string name="message_hostkey_unknown">Kunci host tidak diketahui</string>
+    <string name="message_hostkey_changed">Kunci host telah diganti</string>
+    <string name="message_auth_fail">Autentikasi gagal, periksa nama pengguna/sandi</string>
+    <string name="message_auth_cancel">Autentikasi telah dibatalkan</string>
+    <string name="message_unknown_connection">Tidak dapat menjalin sambungan, mohon periksa alamat perangkat dan sambungan.</string>
+    <string name="message_auth_incorrect">Terlalu banyak kesalahan autentikasi dengan pengguna ini</string>
+    <string name="message_refused_connection">Sambungan ditolak</string>
+    <string name="message_retry_bad_connection">Gagal menjalin sambungan, ulangi?</string>
+    <string name="message_bad_connection">Gagal menjalin sambungan.</string>
+    <string name="title_device_list">Daftar Perangkat</string>
+    <string name="title_cmd_list">Daftar Perintah</string>
+    <string name="hint_administrator">Administrator</string>
+    <string name="title_securitycam_live">Kamera Keamanan</string>
+    <string name="message_securitycam_fail">Gagal menampilkan tayangan langsung dari kamera keamanan, mohon periksa sambungan!</string>
+    <string name="title_hotspot_management">Manajemen Hotspot</string>
+    <string name="title_ava">AVA Talk</string>
+    <string name="message_web_fail">Gagal memuat data, mohon periksa sambungan!</string>
+    <string name="message_loading">Memuat, mohon tunggu…</string>
+    <string name="title_download">Mengunduh</string>
+    <string name="message_confirm_save">"Apakah Anda ingin menyimpan "</string>
+    <string name="description_credits"><![CDATA[Terima Kasih Kepada: \n-> Zakaria \n-> Gunawan \n-> Suhermanto]]></string>
+    <string name="title_device_setup">Atur Perangkat:</string>
+    <string name="message_plugin">Gagal memulai plugin, mohon periksa sambungan!</string>
+    <string name="button_dismiss">Sembunyikan</string>
+    <string name="button_show_eula">EULA</string>
+    <string name="pref_title_sensitivity">Sensitivitas Kursor</string>
+    <string name="pref_description_keyboard_autoclear">Bersihkan tulisan ketika mengirim</string>
+    <string name="pref_title_keyboard_autoclear">Otomatis membersihkan tulisan</string>
+    <string name="lock_layout">Kunci Tata Letak Keyboard</string>
+    <string name="invert_scroll">Arah Scroll Terbalik</string>
+    <string name="pref_restore_default_layout">Kembalikan Tata Letak Keyboard</string>
+    <string name="pref_mousepad_im_style">Gaya Mengirim Instant</string>
+    <string name="pref_description_lock_keyboard">Larang untuk mengubah tata letak keyboard</string>
+    <string name="pref_description_im_style">Larang untuk mengirim input secara langsung pada saat mengetik</string>
+    <string name="tooltip_mousepad">Gerakkan jari anda pada layar untuk menggerakkan kursor</string>
+    <string name="mousepad_restore_title">Kembalikan Keyboard standar?</string>
+    <string name="mousepad_restore_msg">Semua tombol yang telah dimodifikasi akan terhapus!</string>
+
+    <string-array name="pref_sensitivity_list_titles">
+        <item>Normal, 1X</item>
+        <item>Sedang, 1.5X</item>
+        <item>Tinggi, 2X</item>
+        <item>Super, 3X</item>
+    </string-array>
+
+    <string-array name="pref_sensitivity_list_values">
+        <item>1.0f</item>
+        <item>1.5f</item>
+        <item>2.0f</item>
+        <item>3.0f</item>
+    </string-array>
+    <string name="message_settings_exit">Apakah Anda yakin ingin keluar dari pengaturan?</string>
+    <string name="button_talkto_ava">Bicara pada AVA</string>
+    <string name="hint_ava">Tulis pesan anda disini!</string>
+    <string name="button_repeat_ava">Ulangi</string>
+    <string name="button_stop_ava">Berhenti bicara</string>
+    <string name="note_ava">Catatan: Fitur ini masih dalam tahap pengembangan dan hanya dapat digunakan dalam bahasa inggris! \n \nPenggunaan: \n- Untuk mendapat respon dari AVA, tulis pesan anda lalu tekan tombol \'Bicara pada AVA\' (Anda juga bisa langsung menekan tombol tersebut dan mengirim masukan menggunakan suara Anda dengan Google Voice Typing. Hal yang sama juga berlaku pada tombol \'Ulangi\'). \n- Untuk membuat AVA mengulangi apa yang anda tulis, tekan tombol \'Ulangi\'. \n- Untuk membuat AVA berhenti sementara ia masih sedang berbicara, tekan tombol \'Berhenti bicara\'.</string>
+    <string name="title_router_management">Manajemen Router</string>
+    <string name="hint_help_about">Bantuan/Tentang</string>
+    <string name="title_desktop_live">Penayangan Desktop</string>
+    <string name="message_desktop_fail">Gagal menampilkan tayangan langsung dari desktop, mohon periksa sambungan!</string>
+    <string name="button_show">Tampilkan</string>
+    <string name="message_loading_live">Silakan memuat ulang halaman apabila video masih belum tampil!</string>
+    <string name="title_mousepad">Smart Mousepad</string>
+    <string name="message_empty_pass">Kata sandi kosong!</string>
+    <string name="message_desktop_warning">Ini akan membuat kamera keamanan berhenti merekam! Tetap lanjutkan?</string>
+    <string name="title_result">Hasil:</string>
+    <string name="hint_manual_cmd">Tulis perintah anda disini!</string>
+    <string name="message_empty_cmd">Perintah kosong!</string>
+    <string name="message_cmd_failed">Gagal mengirim perintah, silakan sambungkan terlebih dahulu!</string>
+    <string name="message_system_clean">Membersihkan sistem akan menghapus video rekaman kamera keamanan Anda, pastikan Anda telah mencadangkannya. Lanjutkan?</string>
+    <string name="title_channel_setup">Atur Saluran:</string>
+    <string name="title_channel_a">Saluran A</string>
+    <string name="title_channel_b">Saluran B</string>
+    <string name="title_channel_c">Saluran C</string>
+    <string name="title_channel_d">Saluran D</string>
+    <string name="title_channel_e">Saluran E</string>
+    <string name="title_channel_f">Saluran F</string>
+    <string name="title_channel_g">Saluran G</string>
+    <string name="title_channel_h">Saluran H</string>
+    <string name="title_timer">Atur Waktu:</string>
+    <string name="title_unit_days">Hari:</string>
+    <string name="title_unit_hours">Jam:</string>
+    <string name="title_unit_minutes">Menit:</string>
+    <string name="message_time_null">Waktu belum diatur!</string>
+    <string name="message_option_null">Tandai saluran yang ingin atur!</string>
+    <string name="button_active">Aktifkan</string>
+    <string name="button_deactive">Nonaktifkan</string>
+    <string name="message_desktop_recorder">Perekam desktop masih berjalan, apakah anda ingin menghentikannya?</string>
+    <string name="message_doesnt_support_stt">Perangkat Anda tidak mendukung input suara!</string>
+    <string name="about">Tentang</string>
+    <string name="button_send">Kirim</string>
+    <string name="message_blocked">Diblokir!</string>
+    <string name="title_notif">Notifikasi</string>
+    <string name="button_update">Perbarui</string>
+</resources>

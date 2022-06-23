@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/label_smartlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_setup"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkbox_slch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_a"
+        android:paddingBottom="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/checkbox_slch2"
+        app:layout_constraintEnd_toStartOf="@id/checkbox_slch5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label_smartlight" />
+
+    <CheckBox
+        android:id="@+id/checkbox_slch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_b"
+        android:paddingBottom="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintTop_toBottomOf="@id/checkbox_slch1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/checkbox_slch6"
+        app:layout_constraintBottom_toTopOf="@+id/checkbox_slch3"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_slch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_c"
+        android:paddingBottom="10dp"
+        android:paddingEnd="10dp"
+        app:layout_constraintTop_toBottomOf="@id/checkbox_slch2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/checkbox_slch7"
+        app:layout_constraintBottom_toTopOf="@+id/checkbox_slch4"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_slch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_d"
+        android:paddingEnd="10dp"
+        app:layout_constraintTop_toBottomOf="@id/checkbox_slch3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/checkbox_slch8"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_slch5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_e"
+        android:paddingBottom="10dp"
+        app:layout_constraintTop_toBottomOf="@id/label_smartlight"
+        app:layout_constraintStart_toEndOf="@id/checkbox_slch1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/checkbox_slch6"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_slch6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_f"
+        android:paddingBottom="10dp"
+        app:layout_constraintTop_toBottomOf="@id/checkbox_slch5"
+        app:layout_constraintStart_toEndOf="@id/checkbox_slch2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/checkbox_slch7"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_slch7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_g"
+        android:paddingBottom="10dp"
+        app:layout_constraintTop_toBottomOf="@id/checkbox_slch6"
+        app:layout_constraintStart_toEndOf="@id/checkbox_slch3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/checkbox_slch8"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_slch8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_h"
+        app:layout_constraintTop_toBottomOf="@id/checkbox_slch7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/checkbox_slch4"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

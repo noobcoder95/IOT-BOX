@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp">
+
+    <TextView
+        android:id="@+id/label_channel_setup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_setup"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkbox_ch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/checkbox_ch2"
+        app:layout_constraintEnd_toStartOf="@id/switch_ch1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label_channel_setup" />
+
+    <CheckBox
+        android:id="@+id/checkbox_ch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintTop_toBottomOf="@id/checkbox_ch1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/switch_ch2"
+        app:layout_constraintBottom_toTopOf="@+id/checkbox_ch3"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_ch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintTop_toBottomOf="@id/checkbox_ch2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/switch_ch3"
+        app:layout_constraintBottom_toTopOf="@+id/checkbox_ch4"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_ch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintTop_toBottomOf="@id/checkbox_ch3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/switch_ch4"
+        app:layout_constraintBottom_toTopOf="@+id/label_timer"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_ch5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintTop_toBottomOf="@id/label_channel_setup"
+        app:layout_constraintStart_toEndOf="@id/switch_ch5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/checkbox_ch6"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_ch6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintTop_toBottomOf="@id/checkbox_ch5"
+        app:layout_constraintStart_toEndOf="@id/switch_ch6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/checkbox_ch7"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_ch7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintTop_toBottomOf="@id/checkbox_ch6"
+        app:layout_constraintStart_toEndOf="@id/switch_ch7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/checkbox_ch8"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_ch8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        app:layout_constraintTop_toBottomOf="@id/checkbox_ch7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/switch_ch8"
+        app:layout_constraintBottom_toTopOf="@+id/label_timer"/>
+
+    <Switch
+        android:id="@+id/switch_ch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_a"
+        app:layout_constraintStart_toEndOf="@id/checkbox_ch1"
+        app:layout_constraintTop_toBottomOf="@id/label_channel_setup"
+        app:layout_constraintBottom_toTopOf="@id/switch_ch2"
+        app:layout_constraintEnd_toStartOf="@id/switch_ch5"/>
+
+    <Switch
+        android:id="@+id/switch_ch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_b"
+        app:layout_constraintStart_toEndOf="@id/checkbox_ch2"
+        app:layout_constraintTop_toBottomOf="@id/switch_ch1"
+        app:layout_constraintBottom_toTopOf="@id/switch_ch3"
+        app:layout_constraintEnd_toStartOf="@id/switch_ch6"/>
+
+    <Switch
+        android:id="@+id/switch_ch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_c"
+        app:layout_constraintStart_toEndOf="@id/checkbox_ch3"
+        app:layout_constraintTop_toBottomOf="@id/switch_ch2"
+        app:layout_constraintBottom_toTopOf="@id/switch_ch4"
+        app:layout_constraintEnd_toStartOf="@id/switch_ch7"/>
+
+    <Switch
+        android:id="@+id/switch_ch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_d"
+        app:layout_constraintStart_toEndOf="@id/checkbox_ch4"
+        app:layout_constraintTop_toBottomOf="@id/switch_ch3"
+        app:layout_constraintBottom_toTopOf="@id/label_timer"
+        app:layout_constraintEnd_toStartOf="@id/switch_ch8"/>
+
+    <Switch
+        android:id="@+id/switch_ch5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_e"
+        app:layout_constraintStart_toEndOf="@id/switch_ch1"
+        app:layout_constraintTop_toBottomOf="@id/label_channel_setup"
+        app:layout_constraintBottom_toTopOf="@id/switch_ch6"
+        app:layout_constraintEnd_toStartOf="@id/checkbox_ch5"/>
+
+    <Switch
+        android:id="@+id/switch_ch6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_f"
+        app:layout_constraintStart_toEndOf="@id/switch_ch2"
+        app:layout_constraintTop_toBottomOf="@id/switch_ch5"
+        app:layout_constraintBottom_toTopOf="@id/switch_ch7"
+        app:layout_constraintEnd_toStartOf="@id/checkbox_ch6"/>
+
+    <Switch
+        android:id="@+id/switch_ch7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_g"
+        app:layout_constraintStart_toEndOf="@id/switch_ch3"
+        app:layout_constraintTop_toBottomOf="@id/switch_ch6"
+        app:layout_constraintBottom_toTopOf="@id/switch_ch8"
+        app:layout_constraintEnd_toStartOf="@id/checkbox_ch7"/>
+
+    <Switch
+        android:id="@+id/switch_ch8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_h"
+        app:layout_constraintStart_toEndOf="@id/switch_ch4"
+        app:layout_constraintTop_toBottomOf="@id/switch_ch7"
+        app:layout_constraintBottom_toTopOf="@id/label_timer"
+        app:layout_constraintEnd_toStartOf="@id/checkbox_ch8"/>
+
+    <TextView
+        android:id="@+id/label_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_timer"
+        android:paddingBottom="10dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/label_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_unit_days"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@id/edittext_days"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label_timer" />
+
+    <EditText
+        android:id="@+id/edittext_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/label_hours"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label_days"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:maxLines="1"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/label_hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_unit_hours"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@id/edittext_hours"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edittext_days" />
+
+    <EditText
+        android:id="@+id/edittext_hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/label_minutes"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label_hours"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:maxLines="1"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/label_minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_unit_minutes"
+        android:paddingBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@id/edittext_minutes"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edittext_hours" />
+
+    <EditText
+        android:id="@+id/edittext_minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label_minutes"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:maxLines="1"
+        tools:ignore="LabelFor" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

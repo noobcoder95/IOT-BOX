@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrgAvaTalk">
+
+    <EditText
+        android:id="@+id/edittext_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:maxLength="200"
+        android:hint="@string/hint_ava"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        tools:ignore="LabelFor,RtlSymmetry" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:text="@string/note_ava"
+        android:textAlignment="textStart"/>
+
+    <Button
+        android:id="@+id/button_talk_ava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/button_repeat_ava"
+        android:layout_toStartOf="@id/button_stop_ava"
+        android:layout_centerHorizontal="true"
+        android:text="@string/button_talkto_ava"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/button_repeat_ava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="@string/button_repeat_ava"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/button_stop_ava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="@string/button_stop_ava"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

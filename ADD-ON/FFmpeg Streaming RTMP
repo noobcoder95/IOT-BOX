@@ -1,0 +1,48 @@
+- Packet Requirements
+
+nginx firefox-esr libnginx-mod-rtmp php7.3-fpm ffmpeg kodi kodi-repository lshw kodi-inputadaptive kdeconnect dnsmasq libc6 libgcc1 gcc-8-base php7.3-mysql freeradius freeradius-mysql xdotool create_ap (github)
+
+- Uninstall List
+
+geany armbian-buster-desktop chromium 
+
+- Slow Stream (Good Quality)
+
+ffmpeg -re -f v4l2 -video_size 640x480 -framerate 30 -i /dev/video0 /var/www/html/cctv/$(date '+%Y-%m-%d_%H-%M').mp4 -c:v libx264 -b:v 1600k -preset ultrafast -tune zerolatency -maxrate 3000k -bufsize 4000k -c:a libfdk_aac -b:a 128k -s 640x480 -x264opts keyint=50 -g 25 -pix_fmt yuv420p -f flv "rtmp://127.0.0.1/live/technodynamite"
+
+- Good Stream (Low Quality)
+
+ffmpeg -re -f v4l2 -video_size 640x480 -framerate 30 -i /dev/video0 /var/www/html/cctv/$(date '+%Y-%m-%d_%H-%M').mp4 -t 60 -c:v libx264 -c:a libfdk_aac -preset ultrafast -tune zerolatency -framerate 30 -g 60 -keyint_min 60 -f flv "rtmp://127.0.0.1/live/technodynamite"
+
+- Good Stream, no Log (Low Quality)
+
+ffmpeg -loglevel 0 -thread_queue_size 32768 -re -f v4l2 -video_size 640x480 -framerate 30 -i /dev/video0 /var/www/html/cctv/$(date '+%Y-%m-%d_%H-%M').mp4 -t 60 -c:v libx264 -c:a libfdk_aac -preset ultrafast -tune zerolatency -framerate 30 -g 60 -keyint_min 60 -f flv "rtmp://127.0.0.1/live/technodynamite"
+
+- Infinite Loop (Bash Script)
+
+#!/bin/bash
+while true
+do
+	echo "Press [CTRL+C] to stop.."
+	sleep 1
+done
+
+- Show Status (Baash Script)
+
+#!/bin/bash
+
+if pgrep -x "ffmpeg" > /dev/null
+then
+    echo "Running"
+else
+    echo "Stopped"
+
+fi
+
+if pgrep -x "featherpad" > /dev/null
+then
+    echo "Running"
+else
+    echo "Stopped"
+
+fi

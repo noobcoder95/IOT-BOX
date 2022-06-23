@@ -1,0 +1,58 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp">
+
+        <TextView
+            android:id="@+id/progressText"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/title_progress"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:max="500"
+            android:progressTint="#00C2E4" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_ok"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginHorizontal="100dp"
+            tools:ignore="PrivateResource" />
+    </TableRow>
+
+</TableLayout>

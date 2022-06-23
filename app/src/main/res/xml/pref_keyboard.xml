@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<CheckBoxPreference
+        android:defaultValue="false"
+        android:key="setting_keyboard_batch"
+        android:summary="@string/pref_description_im_style"
+        android:title="@string/pref_mousepad_im_style" />
+	<CheckBoxPreference
+        android:defaultValue="true"
+        android:key="keyboard_autoclear"
+        android:summary="@string/pref_description_keyboard_autoclear"
+        android:title="@string/pref_title_keyboard_autoclear" />
+	<CheckBoxPreference
+        android:defaultValue="true"
+        android:key="keyboard_layout_locked"
+        android:summary="@string/pref_description_lock_keyboard"
+        android:title="@string/lock_layout" />
+	
+</PreferenceScreen>

@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0054)https://trac.ffmpeg.org/wiki/EncodingForStreamingSites -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>
+      EncodingForStreamingSites – FFmpeg
+    </title>
+      
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--[if IE]><script type="text/javascript">
+      if (/^#__msie303:/.test(window.location.hash))
+        window.location.replace(window.location.hash.replace(/^#__msie303:/, '#'));
+    </script><![endif]-->
+        <link rel="search" href="https://trac.ffmpeg.org/search">
+        <link rel="help" href="https://trac.ffmpeg.org/wiki/TracGuide">
+        <link rel="alternate" href="https://trac.ffmpeg.org/wiki/EncodingForStreamingSites?format=txt" type="text/x-trac-wiki" title="Plain Text">
+        <link rel="start" href="https://trac.ffmpeg.org/wiki">
+        <link rel="stylesheet" href="./EncodingForStreamingSites – FFmpeg_files/trac.css" type="text/css"><link rel="stylesheet" href="./EncodingForStreamingSites – FFmpeg_files/wiki.css" type="text/css"><link rel="stylesheet" href="./EncodingForStreamingSites – FFmpeg_files/tracvote.css" type="text/css"><link rel="stylesheet" href="./EncodingForStreamingSites – FFmpeg_files/tractags.css" type="text/css">
+        <link rel="shortcut icon" href="https://trac.ffmpeg.org/chrome/common/trac.ico" type="image/x-icon">
+        <link rel="icon" href="https://trac.ffmpeg.org/chrome/common/trac.ico" type="image/x-icon">
+    
+      <link type="application/opensearchdescription+xml" rel="search" href="https://trac.ffmpeg.org/search/opensearch" title="Search FFmpeg">
+      <script type="text/javascript" charset="utf-8" src="./EncodingForStreamingSites – FFmpeg_files/jquery.js"></script>
+      <script type="text/javascript" charset="utf-8" src="./EncodingForStreamingSites – FFmpeg_files/babel.js"></script>
+      <script type="text/javascript" charset="utf-8" src="./EncodingForStreamingSites – FFmpeg_files/trac.js"></script>
+      <script type="text/javascript" charset="utf-8" src="./EncodingForStreamingSites – FFmpeg_files/search.js"></script>
+      <script type="text/javascript" charset="utf-8" src="./EncodingForStreamingSites – FFmpeg_files/folding.js"></script>
+    <script type="text/javascript">
+      jQuery("#trac-noscript").remove();
+      jQuery(document).ready(function($) {
+        $(".trac-autofocus").focus();
+        $(".trac-target-new").attr("target", "_blank");
+        setTimeout(function() { $(".trac-scroll").scrollToTop() }, 1);
+        $(".trac-disable-on-submit").disableOnSubmit();
+      });
+    </script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+        $("#content").find("h1,h2,h3,h4,h5,h6").addAnchor(_("Link to this section"));
+        $("#content").find(".wikianchor").each(function() {
+          $(this).addAnchor(babel.format(_("Link to #%(id)s"), {id: $(this).attr('id')}));
+        });
+        $(".foldable").enableFolding(true, true);
+      });
+    </script>
+  </head>
+  <body>
+    <div id="banner">
+      <div id="header">
+        <a id="logo" href="https://ffmpeg.org/"><img src="./EncodingForStreamingSites – FFmpeg_files/ffmpeg-logo.png" alt="FFmpeg"></a>
+      </div>
+      <form id="search" action="https://trac.ffmpeg.org/search" method="get">
+        <div>
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="18" value="">
+          <input type="submit" value="Search">
+        </div>
+      </form>
+      <div id="metanav" class="nav">
+    <ul>
+      <li class="first"><a href="https://trac.ffmpeg.org/login">Login</a></li><li><a href="https://trac.ffmpeg.org/prefs">Preferences</a></li><li><a href="https://trac.ffmpeg.org/wiki/TracGuide">Help/Guide</a></li><li><a href="https://trac.ffmpeg.org/about">About Trac</a></li><li class="last"><a href="https://trac.ffmpeg.org/register">Register</a></li>
+    </ul>
+  </div>
+    </div>
+    <div id="mainnav" class="nav">
+    <ul>
+      <li class="first active"><a href="https://trac.ffmpeg.org/wiki">Wiki</a></li><li><a href="https://trac.ffmpeg.org/timeline">Timeline</a></li><li><a href="https://trac.ffmpeg.org/report">View Tickets</a></li><li><a href="https://trac.ffmpeg.org/search">Search</a></li><li class="last"><a href="https://trac.ffmpeg.org/tags">Tags</a></li>
+    </ul>
+  </div>
+    <div id="main">
+      <div id="pagepath" class="noprint">
+  <h1 style="display: inline;"><a class="pathentry first" title="View WikiStart" href="https://trac.ffmpeg.org/wiki">wiki:</a></h1><h1 style="display: inline; color: #b00;"><a class="pathentry" href="https://trac.ffmpeg.org/wiki/EncodingForStreamingSites" title="View EncodingForStreamingSites">EncodingForStreamingSites</a></h1>
+</div>
+      <div id="ctxtnav" class="nav">
+        <h2>Context Navigation</h2>
+        <ul>
+          <li class="first"><span id="vote" title="Vote count"><img src="./EncodingForStreamingSites – FFmpeg_files/aupgray.png" alt="Up-vote"><span id="votes">+0</span><img src="./EncodingForStreamingSites – FFmpeg_files/adowngray.png" alt="Down-vote"></span></li><li><a href="https://trac.ffmpeg.org/wiki/WikiStart">Start Page</a></li><li><a href="https://trac.ffmpeg.org/wiki/TitleIndex">Index</a></li><li class="last"><a href="https://trac.ffmpeg.org/wiki/EncodingForStreamingSites?action=history">History</a></li>
+        </ul>
+        <hr>
+      </div>
+    <div id="content" class="wiki">
+      <div class="wikipage searchable">
+        
+          <div id="wikipage" class="trac-content"><h1 id="Encodingforstreamingsites">Encoding for streaming sites</h1>
+<p>
+… such as twitch.tv, ustream.tv, YouTube Live, and other RTMP(E) streaming providers. Since FFmpeg development is very active it is recommend that you follow a <a class="wiki" href="https://trac.ffmpeg.org/wiki/CompilationGuide">compilation guide</a> to take advantage of bug fixes and new features.
+</p>
+<p>
+This guide assumes that you will be using the <tt>libx264</tt> encoder, which currently offers the best possible quality at fast encoding speeds. Other encoders may be more efficient, but slower, e.g. <tt>libx265</tt>. Also, H.264 video provides better compatibility with client devices. For more info, please read the <a class="wiki" href="https://trac.ffmpeg.org/wiki/Encode/H.264">H.264 Encoding Guide</a>. 
+</p>
+<div style="border: 1pt dotted; margin: 1em; background-color: #fffff9" class="wikipage"><p>
+<strong>Note:</strong> You may have to tweak the commands and settings listed below, e.g. by customizing the <tt>-crf</tt>, <tt>-preset</tt>, <tt>-maxrate</tt>, <tt>-bufsize</tt>, and <tt>-g</tt> options. Make sure you understand what they mean, and visually inspect your output.
+</p>
+</div><h2 id="a-crf"><tt>-crf</tt></h2>
+<p>
+Consider this to be as close as you can get to a "constant quality" mode. Range is 0-51: 0 is lossless, 18 is often considered to be roughly "visually lossless", 23 is the default, and 51 is the worst. Generally you want to use the highest value that still provides an acceptable quality. If you do not know what to choose then 23-28 will probably be acceptable for streaming.
+</p>
+<h2 id="a-preset"><tt>-preset</tt></h2>
+<p>
+This provides the compression to encoding speed ratio. Use the slowest preset you can: <tt>ultrafast</tt>,<tt>superfast</tt>, <tt>veryfast</tt>, <tt>faster</tt>, <tt>fast</tt>, <tt>medium</tt>, <tt>slow</tt>, <tt>slower</tt>, <tt>veryslow</tt>, <tt>placebo</tt>. Try <tt>-preset veryfast</tt> if you are unsure of what to choose, then watch the console output or the video to see if the encoder is keeping up with your desired output frame rate: if it is not then use a faster preset and/or reduce your <tt>-video_size</tt>.
+</p>
+<h2 id="a-maxrate"><tt>-maxrate</tt></h2>
+<p>
+Anytime you are encoding video with bandwidth as a limiting factor you should be using VBV (Video Buffer Verifier) with the <tt>-maxrate</tt> and <tt>-bufsize</tt> options:
+</p>
+<ul><li>Assuming your upload rate is 1024kbit/s (1 megabit/s), and assuming you can reliably utilize 80% of that = 820 kbit/s. Audio will consume 128 kbit/s (64k/channel for stereo, but you can of course use a different audio bitrate) leaving ~692 kbit/s for video: this is your <tt>-maxrate</tt> value.
+</li></ul><ul><li>If you have a sane upload rate, or do not know what to choose then a <tt>-maxrate</tt> value of up to 3000k-4000k will probably be fine if your upload rate can handle it (depending on your input complexity and <tt>-video_size</tt>). Refer to your streaming service for any limitations that may apply.
+</li></ul><ul><li>Note that the claimed data rate pay your ISP for may not actually be what you get. You can use a site like <a class="ext-link" href="http://www.speedtest.net/"><span class="icon">​</span>speedtest.net</a> to test.
+</li></ul><h2 id="a-bufsize"><tt>-bufsize</tt></h2>
+<p>
+<tt>-bufsize</tt> sets the buffer size, and can be 1-2 seconds for most gaming screencasts, and up to 5 seconds for more static content. If you use <tt>-maxrate 960k</tt> then use a <tt>-bufsize</tt> of 960k-1920k. You will have to experiment to see what looks best for your content. Refer to your streaming service for the recommended buffer size (it may be shown in seconds or bits).
+</p>
+<h2 id="a-g"><tt>-g</tt></h2>
+<p>
+Use a 2 second GOP (Group of Pictures), so simply multiply your output frame rate * 2. For example, if your input is <tt>-framerate 30</tt>, then use <tt>-g 60</tt>.
+</p>
+<hr>
+<h2 id="Streamingyourdesktop">Streaming your desktop</h2>
+<h3 id="Withoutscalingtheoutput">Without scaling the output</h3>
+<p>
+If you want the output video frame size to be the same as the input:
+</p>
+<pre class="wiki">$ ffmpeg -f alsa -ac 2 -i hw:0,0 -f x11grab -framerate 30 -video_size 1280x720 \
+-i :0.0+0,0 -c:v libx264 -preset veryfast -maxrate 1984k -bufsize 3968k \
+-vf "format=yuv420p" -g 60 -c:a aac -b:a 128k -ar 44100 \
+-f flv rtmp://live.twitch.tv/app/&lt;stream key&gt;
+</pre><h3 id="Scalingtheoutput">Scaling the output</h3>
+<p>
+If you want the output video frame size to be smaller than the input then you can use the <a class="ext-link" href="http://ffmpeg.org/ffmpeg-filters.html#scale"><span class="icon">​</span>scale video filter</a>:
+</p>
+<pre class="wiki">$ ffmpeg -f alsa -ac 2 -i hw:0,0 -f x11grab -framerate 30 -video_size 1680x1050 \
+-i :0.0+0,0 -c:v libx264 -preset veryfast -maxrate 3000k -bufsize 3000k \
+-vf "scale=1280:-1,format=yuv420p" -g 60 -c:a aac -b:a 128k -ar 44100 \
+-f flv rtmp://live.twitch.tv/app/&lt;stream key&gt;
+</pre><p>
+The <tt>-1</tt> in the scale filter example will automatically calculate the correct value to preserve the height. In this case the output will have a frame size of 1280x800.
+</p>
+<h3 id="Withwebcamoverlay">With webcam overlay</h3>
+<p>
+This will place your webcam overlay in the top right:
+</p>
+<pre class="wiki">$ ffmpeg -f x11grab -video_size 1680x1050 -framerate 30 -i :0.0 \
+-f v4l2 -video_size 320x240 -framerate 30 -i /dev/video0 \
+-f alsa -ac 2 -i hw:0,0 -filter_complex \
+"[0:v]scale=1024:-1,setpts=PTS-STARTPTS[bg]; \
+ [1:v]scale=120:-1,setpts=PTS-STARTPTS[fg]; \
+ [bg][fg]overlay=W-w-10:10,format=yuv420p[out]"
+-map "[out]" -map 2:a -c:v libx264 -preset veryfast \
+-maxrate 3000k -bufsize 4000k -c:a aac -b:a 160k -ar 44100 \
+-f flv rtmp://live.twitch.tv/app/&lt;stream key&gt;
+</pre><ul><li>You can see additional details your webcam with something like: <tt>ffmpeg -f v4l2 -list_formats all -i /dev/video0</tt> or with <tt>v4l2-ctl --list-formats-ext</tt>. See the documentation on the <a class="ext-link" href="http://ffmpeg.org/ffmpeg-devices.html#video4linux2_002c-v4l2"><span class="icon">​</span>video4linux2 (v4l2) input device</a> for more info.
+</li></ul><ul><li>Your webcam may natively support whatever frame size you want to overlay onto the main video, so scaling the webcam video as shown in this example can be omitted (just set the appropriate v4l2 <tt>-video_size</tt> and remove the <tt>scale=120:-1,</tt>).
+</li></ul><h3 id="Withwebcamoverlayandlogo">With webcam overlay and logo</h3>
+<p>
+This will place your webcam overlay in the top right, and a logo in the bottom left:
+</p>
+<pre class="wiki">$ ffmpeg -f x11grab -video_size 1680x1050 -framerate 30 -i :0.0 \
+-f v4l2 -video_size 320x240 -framerate 30 -i /dev/video0 \
+-f alsa -ac 2 -i hw:0,0 -i logo.png -filter_complex \
+"[0:v]scale=1024:-1,setpts=PTS-STARTPTS[bg]; \
+ [1:v]scale=120:-1,setpts=PTS-STARTPTS[fg]; \
+ [bg][fg]overlay=W-w-10:10[bg2]; \
+ [bg2][3:v]overlay=W-w-10:H-h-10,format=yuv420p[out]"
+-map "[out]" -map 2:a -c:v libx264 -preset veryfast \
+-maxrate 3000k -bufsize 4000k -c:a aac -b:a 160k -ar 44100 -b:a 128k \
+-f flv rtmp://live.twitch.tv/app/&lt;stream key&gt;
+</pre><hr>
+<h2 id="Streamingafile">Streaming a file</h2>
+<pre class="wiki">$ ffmpeg -re -i input.mkv -c:v libx264 -preset veryfast -maxrate 3000k \
+-bufsize 6000k -pix_fmt yuv420p -g 50 -c:a aac -b:a 160k -ac 2 \
+-ar 44100 -f flv rtmp://live.twitch.tv/app/&lt;stream key&gt;
+</pre><h3 id="Encodingafileforstreaming">Encoding a file for streaming</h3>
+<p>
+If your computer is too slow to encode the file on-the-fly like the example above then you can re-encode it first:
+</p>
+<pre class="wiki">$ ffmpeg -i input.mkv -c:v libx264 -preset medium -maxrate 3000k -bufsize 6000k \
+-vf "scale=1280:-1,format=yuv420p" -g 50 -c:a aac -b:a 128k -ac 2 -ar 44100 file.flv
+</pre><p>
+Then <a class="ext-link" href="http://ffmpeg.org/ffmpeg.html#Stream-copy"><span class="icon">​</span>stream copy</a> it to the streaming service:
+</p>
+<pre class="wiki">$ ffmpeg -re -i file.flv -c copy -f flv rtmp://live.twitch.tv/app/&lt;stream key&gt;
+</pre><h3 id="Outputtingtomultiplestreamingserviceslocalfile">Outputting to multiple streaming services &amp; local file</h3>
+<p>
+You can use the <a href="https://ffmpeg.org/ffmpeg-formats.html#tee-1">tee muxer</a> to efficiently stream to multiple sites and save a local copy if desired. Using tee will allow you to encode only once and send the same data to multiple outputs. Using the <tt>onfail</tt> option will allow the other streams to continue if one fails.
+</p>
+<pre class="wiki">$ ffmpeg -i input -map 0 -c:v libx264 -c:a aac -maxrate 1000k -bufsize 2000k -g 50 -f tee \
+"[f=flv:onfail=ignore]rtmp://facebook|[f=flv:onfail=ignore]rtmp://youtube|local_file.mkv"
+</pre><p>
+Some encoders may need different options depending on the output format; the auto-detection of this can not work with the tee muxer, so they need to be explicitly specified. The main example is the <strong>global_header</strong> flag.
+</p>
+<pre class="wiki">$ ffmpeg -i input -map 0 -flags +global_header -c:v libx264 -c:a aac -maxrate 1000k -bufsize 2000k -g 50 -f tee \
+"[f=flv:onfail=ignore]rtmp://facebook|[f=flv:onfail=ignore]rtmp://youtube|local_file.mkv"
+</pre><hr>
+<h2 id="Notes">Notes</h2>
+<ul><li>Linux users can use <tt>xwininfo | grep geometry</tt> to select the target window and get placement coordinates. For example, an output of  <tt>-geometry 800x600+284+175</tt> would result in using <tt>-video_size 800x600 -i :0.0+284,175</tt>. You can also use it to automatically enter the input screen size: <tt>-video_size $(xwininfo -root | awk '/-geo/{print $2}')</tt>.
+</li></ul><ul><li>The <a class="ext-link" href="http://ffmpeg.org/ffmpeg-devices.html#pulse-1"><span class="icon">​</span>pulse input device</a> (requires <tt>--enable-libpulse</tt>) can be an alternative to the <a class="ext-link" href="http://ffmpeg.org/ffmpeg-devices.html#alsa-1"><span class="icon">​</span>ALSA input device</a>, as in: <tt>-f pulse -i default</tt>.
+</li></ul><ul><li>Windows users can use the <a class="ext-link" href="http://ffmpeg.org/ffmpeg-devices.html#dshow"><span class="icon">​</span>Windows DirectShow (dshow) input device</a>. Also see: <a class="wiki" href="https://trac.ffmpeg.org/wiki/How%20to%20grab%20the%20desktop%20(screen)%20with%20FFmpeg#Windows">How to grab the desktop (screen) with FFmpeg</a>.
+</li></ul><h2 id="Gettinghelp">Getting help</h2>
+<p>
+Always use a recent <tt>ffmpeg</tt>. See the <a class="wiki" href="https://trac.ffmpeg.org/wiki/CompilationGuide">compilation guides</a> for more information.
+</p>
+<p>
+If you need additional help then send a message to the <a class="ext-link" href="http://ffmpeg.org/contact.html"><span class="icon">​</span>ffmpeg-user mailing list</a> (see <a class="wiki" href="https://trac.ffmpeg.org/wiki/MailingListEtiquette">MailingListEtiquette</a> first) or hang out in the <em>#ffmpeg</em> IRC channel on Freenode.
+</p>
+</div>
+          
+          <div class="trac-modifiedby">
+            <span><a href="https://trac.ffmpeg.org/wiki/EncodingForStreamingSites?action=diff&amp;version=10" title="Version 10 by patrickz">Last modified</a> <a class="timeline" href="https://trac.ffmpeg.org/timeline?from=2019-10-16T09%3A25%3A28%2B03%3A00&amp;precision=second" title="See timeline at Oct 16, 2019, 9:25:28 AM">5 months ago</a></span>
+            <span class="trac-print">Last modified on Oct 16, 2019, 9:25:28 AM</span>
+          </div>
+        
+        
+      </div><ul class="tags"><li class="header">Tags</li><li><a href="https://trac.ffmpeg.org/tags?q=rtmp" rel="tag">rtmp</a> </li><li><a href="https://trac.ffmpeg.org/tags?q=screencasting" rel="tag">screencasting</a> </li><li><a href="https://trac.ffmpeg.org/tags?q=streaming" rel="tag">streaming</a> </li><li><a href="https://trac.ffmpeg.org/tags?q=twitch" rel="tag">twitch</a> </li><li><a href="https://trac.ffmpeg.org/tags?q=vbv" rel="tag">vbv</a> </li><li><a href="https://trac.ffmpeg.org/tags?q=youtube" rel="tag">youtube</a> </li></ul>
+      
+
+    </div>
+    <div id="altlinks">
+      <h3>Download in other formats:</h3>
+      <ul>
+        <li class="last first">
+          <a rel="nofollow" href="https://trac.ffmpeg.org/wiki/EncodingForStreamingSites?format=txt">Plain Text</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <div id="footer" lang="en" xml:lang="en"><hr>
+      <a id="tracpowered" href="http://trac.edgewall.org/"><img src="./EncodingForStreamingSites – FFmpeg_files/trac_logo_mini.png" height="30" width="107" alt="Trac Powered"></a>
+      <p class="left">Powered by <a href="https://trac.ffmpeg.org/about"><strong>Trac 1.0.9</strong></a><br>
+        By <a href="http://www.edgewall.org/">Edgewall Software</a>.</p>
+      <p class="right">Visit the Trac open source project at<br><a href="http://trac.edgewall.org/">http://trac.edgewall.org/</a></p>
+    </div>
+  
+</body></html>

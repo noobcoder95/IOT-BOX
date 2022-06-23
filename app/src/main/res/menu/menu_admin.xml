@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_admin"
+        android:title="@string/hint_administrator"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/perm_group_personal_info"/>
+
+</menu>

@@ -1,0 +1,131 @@
+<resources>
+
+    <string name="title_about">Smart Home Controller 1.5 \n(Stable-Release)</string>
+    <string name="builddate_about">Built on April 11 2020 at 05:10:45. \nCopyright 2020 Technodynamite. \n<i>All rights reserved.</i>  \nDeveloped by Verdi.</string>
+    <string name="title_eula">End User License Agreement</string>
+
+    <string name="textview_status">Connection Status: -</string>
+    <string name="title_progress">Please wait…</string>
+    <string name="button_connect">Connect</string>
+    <string name="button_onconnect">Click to Disconnect</string>
+    <string name="button_ondisconnect">Click to Connect</string>
+    <string name="app_name">Smart Home</string>
+    <string name="title_connection">Connection</string>
+    <string name="title_remote">Remote</string>
+    <string name="setting">Settings</string>
+    <string name="message_mouspadeplugin">Mousepad and Keyboard remote</string>
+
+    <string name="hint_connectionname">Connection Name</string>
+    <string name="hint_host">Host Address</string>
+    <string name="hint_cmdname">Command Name</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_port">Port</string>
+    <string name="textview_password">Password :</string>
+    <string name="button_save">Save</string>
+    <string name="button_add">Add</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_login">Login</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="hint_loginpassword">Input Password</string>
+    <string name="hint_command">Command</string>
+    <string name="title_cmdsetup">Command Setup: </string>
+    <string name="button_ok">OK</string>
+    <string name="button_accept">Accept</string>
+    <string name="button_decline">Decline</string>
+    <string name="title_alert">Alert!</string>
+    <string name="message_fillform">Please complete the form!</string>
+    <string name="message_fillconnectionname">Please enter a Connection Name</string>
+    <string name="message_fillhostname">Please enter Host Name/IP</string>
+    <string name="message_filluname">Please enter Username</string>
+    <string name="message_fillport">Please enter Port number (default is 22)</string>
+    <string name="message_fillpass">Please enter Password</string>
+    <string name="message_deletecmd">Are you sure you would like to delete the command?</string>
+    <string name="message_cmdnotselected">Please select a saved command to delete!</string>
+    <string name="message_disconnectconfirmation">Are you sure you would like to disconnect?</string>
+    <string name="message_noconnectionselected">Please select a saved connection!</string>
+    <string name="message_connectionnotselected">Please select a saved connection to delete!</string>
+    <string name="message_deleteconnection">Are you sure you would like to delete the connection?</string>
+    <string name="title_established">Connection Established!</string>
+    <string name="title_warning">Warning!</string>
+    <string name="button_no">NO</string>
+    <string name="title_noselect">Not Selected</string>
+    <string name="textview_onconnected">"Status: Connected to "</string>
+    <string name="button_disconnect">Disconnect</string>
+    <string name="button_yes">YES</string>
+    <string name="message_disconnected">Disconnected</string>
+    <string name="title_error">Error!</string>
+    <string name="title_supportlogin">Technical Support Login</string>
+    <string name="encryption_key_jaka" translatable="false">72DB4B6A99DBF26B684EA9B502779AA22686705D764AC84976EB3F402ECAF72E</string>
+    <string name="message_wrongpass">Wrong Password! Please contact technical support.</string>
+    <string name="message_exit">Are you sure you want to exit?</string>
+    <string name="title_exit">Exit</string>
+    <string name="message_hostkeyreject">You have rejected the server\'s fingerprint</string>
+    <string name="message_hkeyunknown">Unknown Host Key</string>
+    <string name="message_hkeychanged">Host key has been changed</string>
+    <string name="message_authfail">Authentication failed, check username/password</string>
+    <string name="message_authcancel">Authentication has been cancelled</string>
+    <string name="message_badconn">Unable to establish connection, check the host\'s IP and your connection.</string>
+    <string name="message_authincorrect">Too many incorrect authentications with this user</string>
+    <string name="message_refusedconn">Connection refused</string>
+    <string name="message_retrybadconn">Unable to establish connection with the host, retry?</string>
+    <string name="message_badconnwhost">Unable to establish connection with the host.</string>
+    <string name="title_hostlist">Host List</string>
+    <string name="title_cmdlist">Command List</string>
+    <string name="title_cctvdir">List of Recorded CCTV</string>
+    <string name="title_cctvlive">CCTV Live</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="message_cctvfail">Failed to display CCTV Live Broadcast, please check the connection!</string>
+    <string name="title_maincctv">Main CCTV</string>
+    <string name="title_secondcctv">Additional CCTV-1</string>
+    <string name="title_thirdcctv">Additional CCTV-2</string>
+    <string name="message_webfail">Failed to load data, please check the connection!</string>
+    <string name="title_listrecorded">Recorded CCTV</string>
+    <string name="button_showcmd">Show Remote</string>
+    <string name="message_loading">Loading, please wait…</string>
+    <string name="title_download">Download</string>
+    <string name="message_saveconfirm">"Do you want to save "</string>
+    <string name="description_credits"><![CDATA[Special credits & Thanks to: \n-> Gunawan \n-> Zakaria \n-> Yusriana \n-> Suhermanto \n-> Fajar]]></string>
+    <string name="message_cmdlist">Failed to display the command list, please check the connection!</string>
+    <string name="title_connectionsetup">Connection Setup:</string>
+
+    <string name="error_not_reachable">Device not reachable</string>
+    <string name="error_already_paired">Device already paired</string>
+    <string name="error_canceled_by_user">Canceled by user</string>
+    <string name="message_permission">This plugin needs permissions to work</string>
+    <string name="message_optional_permission">You need to grant extra permissions to enable all functions</string>
+    <string name="error_canceled_by_other_peer">Canceled by other peer</string>
+    <string name="error_timed_out">Timed out</string>
+    <string name="error_could_not_send_package">Could not send package</string>
+    <string name="message_plugin">Failed to start plugin, please check the connection!</string>
+    <string name="textview_serverstatus">Server Status:</string>
+    <string name="button_dismiss">[Dismiss]</string>
+    <string name="hint_serverstatus">Make sure you are connected to your SmartHome Device!</string>
+    <string name="button_showeula">EULA</string>
+    <string name="message_prevent_settings">Could not open settings while you are connected, please disconnect first!</string>
+    <string name="title_info">Information:</string>
+    <string name="message_cctvuserinfo">Use the information below to login! \n \nUsername: admin \nPassword: admin@123</string>
+    <string name="encryption_key_fajar" translatable="false">72DB4B6A99DBF26B684EA9B502779AA22A843DE7ED9C7C76CA21CC24C2F3EE3A</string>
+    <string name="encryption_key_verdi" translatable="false">72DB4B6A99DBF26B684EA9B502779AA2E6BAD074979167D8F096506BB45E7E74</string>
+    <string name="preconfigured">Pre-configured</string>
+
+    <string name="pref_title_sensitivity">Mouse sensitivity</string>
+    <string name="pref_description_keyboard_autoclear">Clear keyboard input on send</string>
+    <string name="pref_title_keyboard_autoclear">Auto clear keystrokes</string>
+
+    <string-array name="pref_sensitivity_list_titles">
+        <item>Normal, 1X</item>
+        <item>Increased, 1.5X</item>
+        <item>High, 2X</item>
+        <item>Super, 3X</item>
+    </string-array>
+
+    <string-array name="pref_sensitivity_list_values">
+        <item>1.0f</item>
+        <item>1.5f</item>
+        <item>2.0f</item>
+        <item>3.0f</item>
+    </string-array>
+
+</resources>

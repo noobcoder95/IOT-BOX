@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ActivityMousepad">
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/setting"
+        android:icon="@drawable/ic_action_action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lock_keys"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:checkable="true"
+        android:title="@string/lock_layout" />
+
+    <item
+        android:id="@+id/action_invert_scroll"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:checkable="true"
+        android:title="@string/invert_scroll" />
+
+    <item
+        android:id="@+id/action_restore_default_keys"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/pref_restore_default_layout"/>
+
+</menu>

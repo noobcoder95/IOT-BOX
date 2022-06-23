@@ -1,0 +1,57 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="end"
+            android:text="@string/textview_password"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/ts_password"
+            android:layout_width="match_parent"
+            android:hint="@string/hint_loginpassword"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+
+    </TableRow>
+
+    <TableRow
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/ts_btncancel"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="@string/button_cancel"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/ts_btnlogin"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:layout_gravity="end"
+            android:text="@string/button_login"
+            android:textColor="#fff"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+    </TableRow>
+
+</TableLayout>

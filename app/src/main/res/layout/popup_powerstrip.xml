@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    android:paddingTop="5dp">
+
+    <TextView
+        android:id="@+id/label_channel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cmd_label_powerstrip_controller"
+        android:textStyle="bold"
+        android:paddingBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Switch
+        android:id="@+id/onoff_ch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_a"
+        android:paddingBottom="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/label_channel"
+        app:layout_constraintBottom_toTopOf="@id/onoff_ch2"
+        app:layout_constraintEnd_toStartOf="@id/onoff_ch5"/>
+
+    <Switch
+        android:id="@+id/onoff_ch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_b"
+        android:paddingBottom="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onoff_ch1"
+        app:layout_constraintBottom_toTopOf="@id/onoff_ch3"
+        app:layout_constraintEnd_toStartOf="@id/onoff_ch6"/>
+
+    <Switch
+        android:id="@+id/onoff_ch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_c"
+        android:paddingBottom="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onoff_ch2"
+        app:layout_constraintBottom_toTopOf="@id/onoff_ch4"
+        app:layout_constraintEnd_toStartOf="@id/onoff_ch7"/>
+
+    <Switch
+        android:id="@+id/onoff_ch4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_d"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/onoff_ch3"
+        app:layout_constraintBottom_toTopOf="@id/label_state"
+        app:layout_constraintEnd_toStartOf="@id/onoff_ch8"/>
+
+    <Switch
+        android:id="@+id/onoff_ch5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_e"
+        android:paddingBottom="10dp"
+        app:layout_constraintStart_toEndOf="@id/onoff_ch1"
+        app:layout_constraintTop_toBottomOf="@id/label_channel"
+        app:layout_constraintBottom_toTopOf="@id/onoff_ch6"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Switch
+        android:id="@+id/onoff_ch6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_f"
+        android:paddingBottom="10dp"
+        app:layout_constraintStart_toEndOf="@id/onoff_ch2"
+        app:layout_constraintTop_toBottomOf="@id/onoff_ch5"
+        app:layout_constraintBottom_toTopOf="@id/onoff_ch7"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Switch
+        android:id="@+id/onoff_ch7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_g"
+        android:paddingBottom="10dp"
+        app:layout_constraintStart_toEndOf="@id/onoff_ch3"
+        app:layout_constraintTop_toBottomOf="@id/onoff_ch6"
+        app:layout_constraintBottom_toTopOf="@id/onoff_ch8"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Switch
+        android:id="@+id/onoff_ch8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_channel_h"
+        app:layout_constraintStart_toEndOf="@id/onoff_ch4"
+        app:layout_constraintTop_toBottomOf="@id/onoff_ch7"
+        app:layout_constraintBottom_toTopOf="@id/label_state"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/label_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_result"
+        android:textStyle="bold"
+        android:paddingTop="20dp"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/powerstrip_state"/>
+
+    <com.smartiotdevices.iotbox.ResultText
+        android:id="@+id/powerstrip_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:maxLines="10"
+        android:gravity="start|end"
+        android:hint="@string/message_loading"
+        android:inputType="none"
+        android:text="@string/message_loading"
+        android:textSize="12sp"
+        android:textColor="#000"
+        android:cursorVisible="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
